@@ -20,20 +20,15 @@ Python 3.7 or above
 A valid Google Gemini API key
 
 🚀 Installation
-Clone the repository
+1. Clone the repository
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/nlp-sql-query-executor.git
-cd nlp-sql-query-executor
-Install dependencies
+```bash git clone https://github.com/yourusername/nlp-sql-query-executor.git cd nlp-sql-query-executor```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Set your Gemini API key
+2. Install dependencies
+
+```bash pip install -r requirements.txt```
+
+3. Set your Gemini API key
 
 Visit Google AI Studio to get your API key.
 
@@ -42,10 +37,7 @@ Replace the placeholder key in app.py with your actual API key.
 🧪 Usage
 Launch the app
 
-bash
-Copy
-Edit
-streamlit run app.py
+```bash streamlit run app.py```
 Open the web browser
 
 Navigate to http://localhost:8501
